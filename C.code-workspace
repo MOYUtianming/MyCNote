@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+    "settings": {
+        "cmake.generator": "MinGW Makefiles",
+        "files.associations": {
+            "error_report.h": "c",
+            "cjson.h": "c",
+            "main.h": "c",
+            "stdio.h": "c",
+            "status_report.h": "c",
+            "stdint.h": "c",
+            "insertion_sort.h": "c",
+            "merge_sort.h": "c"
+        }
+    }
+}
