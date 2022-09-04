@@ -18,8 +18,8 @@ static SType MergeCore(int* DHead, int DL, int Mp, int DR)
 /* for example:
     A = {4, 3, 2, 1, INT_MAX,        }
     B = {5, 4, 3, 2, 1,      INT_MAX }
-    when we want to merge B's last legal data , All A's leagl data has been used,
-    but we still can use A's sentry to compare with B's last leagl data;
+    when we want to merge B's last legal data , All A's legal data has been used,
+    but we still can use A's sentry to compare with B's last legal data;
 */
     L[LNum] = INT_MAX;
     R[RNum] = INT_MAX;
