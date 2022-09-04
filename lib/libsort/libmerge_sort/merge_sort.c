@@ -14,7 +14,7 @@ static SType MergeCore(int* DHead, int DL, int Mp, int DR)
     for(flag = 0; flag < RNum; flag++) {
         R[flag] = DHead[Mp+1+flag];
     }
-//the sentry flag is used to escape from check array overflow each time.
+// the sentry flag is used to escape from check array overflow each time.
 /* for example:
     A = {4, 3, 2, 1, INT_MAX,        }
     B = {5, 4, 3, 2, 1,      INT_MAX }
