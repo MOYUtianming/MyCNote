@@ -21,7 +21,7 @@ include_directories(
     )
 
 add_subdirectory(lib/libsort)
-add_subdirectory(lib/libcjson)
+add_subdirectory(opensource/libcjson)
 add_subdirectory(lib/libstatusreport)
 add_subdirectory(case/case_cJson_test)
 add_subdirectory(case/case_hello_world)
